@@ -37,8 +37,6 @@ Stop training if the model reaches 98% accuracy on the training set to prevent o
 
 ## PROGRAM
 
-### Name: A.Anbuselvam
-### Register Number: 212222240009
 
 ### Importing Libraries
 ```
@@ -100,7 +98,7 @@ def reshape_and_normalize(images):
 # Apply your function
 training_images = reshape_and_normalize(training_images)
 
-print('Name: ANBUSELVAM A            RegisterNumber: 212222240009         \n')
+print('Name: A.Anbuselvam          Register Number: 212222240009   \n')
 print(f"Maximum pixel value after normalization: {np.max(training_images)}\n")
 print(f"Shape of training set after reshaping: {training_images.shape}\n")
 print(f"Shape of one image after reshaping: {training_images[0].shape}")
@@ -124,7 +122,7 @@ class EarlyStoppingCallback(tf.keras.callbacks.Callback):
             # Stop training once the above condition is met
             self.model.stop_training=True
             print("\nReached 98% accuracy so cancelling training!")
-print('Name: Meetha Prabhu            Register Number: 212222240065         \n')
+print('Name: A.Anbuselvam          Register Number: 212222240009      \n')
 ### END CODE HERE ###
 ```
 ## GRADED FUNCTION: convolutional_model
@@ -182,16 +180,15 @@ training_history = model.fit(training_images, training_labels, epochs=10, callba
 ## OUTPUT
 
 ### Reshape and Normalize output
-![Screenshot 2024-09-16 133638](https://github.com/user-attachments/assets/77f6b60c-36c7-4f3f-ae95-cad1e6cab102)
-
+![Screenshot 2024-09-16 133638](https://github.com/user-attachments/assets/1eeecc06-6cf0-4091-9110-404658d80064)
 
 
 ### Model Summary
-![Screenshot 2024-09-16 115224](https://github.com/user-attachments/assets/1b54ce82-f384-40d9-bf5b-3b5710a57d81)
+![Screenshot 2024-09-16 115224](https://github.com/user-attachments/assets/63673bc1-fb45-4482-8346-31ef9f58a8df)
 
 
 ### Training the model output
-![Screenshot 2024-09-16 115218](https://github.com/user-attachments/assets/157c8359-8268-4531-9c7f-a60cfc581e60)
+![Screenshot 2024-09-16 115218](https://github.com/user-attachments/assets/bb0b61e7-c827-4a5f-83a6-876672d8d3b2)
 
 
 
